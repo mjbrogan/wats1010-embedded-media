@@ -4,7 +4,39 @@
  *
  * Site Styles
  *****************************************************************************/
-
- html {
-     color: green;
- }
+html {
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+header {
+  min-height: 400px;
+  background-image: url('img/weybec/monkaa_title.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;  
+}
+social {
+  background: pink;
+  position: absolute;
+}
+#social ul {
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 25px;
+}
+#social: hover {
+  width: 250px;
+}
+#social li {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 25px
+  transition: 
+}
