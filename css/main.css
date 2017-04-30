@@ -14,11 +14,11 @@ body {
 }
 header {
   min-height: 300px;
-  background-image: url("../img/monkaa_bluemonkey.jpg");
+  background-image: url("../img/official_header.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  border: 3px solid blueviolet;
+  border: 6px solid blueviolet;
 }
 h1 {
   color: brown;
@@ -41,7 +41,7 @@ h3 {
 #social:hover {
   width: 150px;
 }
-#social {
+#social-links {
   margin: 5px;
   padding: 5px;
   display: inline;
@@ -63,6 +63,23 @@ h3 {
     margin-bottom: 30px;
     border-image: round;
 }
-.main-nav li{
+.main-nav li {
     display: inline;
+}
+.weybec-people {
+    list-style-type: none;
+    border: 6px solid blueviolet;
+    border-radius: 5px;
+    width: 800px;
+    margin: 30px;
+    background-image: url("../img/weybec/monkey_crystal.jpg");
+    color: rgba(2, 46, 48, 1);
+}
+.weybec-people li {
+    display: inline;
+    margin-left: 20px;
+}
+.weybec-people img {
+    width: 75px;
+    height: 75px;
 }
