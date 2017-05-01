@@ -69,17 +69,22 @@ h3 {
 .weybec-people {
     list-style-type: none;
     border: 6px solid blueviolet;
-    border-radius: 5px;
-    width: 800px;
-    margin: 30px;
-    background-image: url("../img/weybec/monkey_crystal.jpg");
-    color: rgba(2, 46, 48, 1);
+    border-radius: 4px;
+    width: 550px;
+    margin: 60px;
+    background-image: url("../img/official_header.jpg");
+    padding: 20px;
+    font-size: bolder;
 }
 .weybec-people li {
     display: inline;
-    margin-left: 20px;
+    position: right;
 }
 .weybec-people img {
-    width: 75px;
-    height: 75px;
+    width: 150px;
+    height: 150px;
 }
+.watch-button {
+    width:150px red;
+}
+ 
