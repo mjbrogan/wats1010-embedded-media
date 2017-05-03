@@ -4,7 +4,84 @@
  *
  * Site Styles
  *****************************************************************************/
-
- html {
-     color: green;
- }
+html {
+  background-color: yellowgreen;
+  padding: 10px;
+  font-family: Comic Sans MS, cursive, sans-serif;
+}
+body {
+  margin: 20px;
+}
+header {
+  min-height: 300px;
+  background-image: url("../img/official_header.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 6px solid blueviolet;
+}
+h1 {
+  color: brown;
+}
+h2 {
+  color: brown;
+}
+h3 {
+  color: brown;
+}
+#social {
+  background: lightblue;
+  position: fixed;
+  top: 20px;
+  right: 0;
+  width: 10px;
+  transition: 2s width;
+  opacity: 0.5;
+}
+#social:hover {
+  width: 150px;
+}
+#social-links {
+  margin: 5px;
+  padding: 5px;
+  display: inline;
+  border-radius: 25px;
+}
+.main-nav {
+    margin-bottom: 30px;
+}
+.main-nav li {
+    display: inline;
+}
+.weybec-people {
+    list-style-type: none;
+    border: 6px solid blueviolet;
+    border-radius: 4px;
+    width: 550px;
+    margin: 60px;
+    background-image: url("../img/official_header.jpg");
+    padding: 20px;
+    font-size: bolder;
+}
+.weybec-people li {
+    display: inline;
+    position: right;
+}
+.weybec-people img {
+    width: 150px;
+    height: 150px;
+}
+.lead {
+    font-family: Times Roman sans-serif;
+    margin: 20px;
+}
+footer p {
+    font-family: Times Roman smaller;
+    background-color: lightblue;
+    border: 3px solid blueviolet;
+    background-repeat: repeat-y;
+    width: 1000px;
+    margin-left: 20px;
+    padding: 10px;
+    text: center;
+}
